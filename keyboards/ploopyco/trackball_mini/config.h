@@ -33,6 +33,14 @@
 
 #define POINTING_DEVICE_ROTATION_270
 
+//#define user DPI
+#define PLOOPY_DPI_OPTIONS { 400, 800, 1200}
+#define PLOOPY_DPI_DEFAULT 1
+
+//#define drag scroll settings
+#define PLOOPY_DRAGSCROLL_DPI 100
+#define PLOOPY_DRAGSCROLL_INVERT
+
 #define ENCODER_BUTTON_COL 1
 #define ENCODER_BUTTON_ROW 0
 /* Custom encoder needs to specify just how many encoders we have */
