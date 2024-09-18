@@ -29,6 +29,14 @@
 // If board has a debug LED, you can enable it by defining this
 // #define DEBUG_LED_PIN F7
 
+//#define drag scroll settings
+#define PLOOPY_DRAGSCROLL_DPI 100
+#define PLOOPY_DRAGSCROLL_INVERT
+
+//#define user DPI
+#define PLOOPY_DPI_OPTIONS { 400, 800, 1200}
+#define PLOOPY_DPI_DEFAULT 1
+
 /* PMW3360 Settings */
 #define POINTING_DEVICE_CS_PIN B0
 
